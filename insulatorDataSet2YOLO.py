@@ -6,8 +6,8 @@ from pathlib import Path
 import random
 from shutil import copyfile
 
-Source_root = Path('D:\deepL--learning\insulation dataset\insulatorDataSet')
-Target_root = Path('D:\deepL--learning\insulation dataset\YOLO')
+Source_root = Path('\...\insulatorDataSet')
+Target_root = Path('\...\YOLO')
 classes = ['insulator', 'defect']
 
 def insulatorDataSet2YOLO(Source_root, Target_root, is_test, shuffle, train_ratio):
